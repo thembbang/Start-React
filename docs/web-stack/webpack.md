@@ -3,7 +3,6 @@ Webpack
 
 [pluralsight](https://app.pluralsight.com/library/courses/webpack-fundamentals/table-of-contents)
 
-
 Why Build in web development
 ----------------------------
 
@@ -21,7 +20,7 @@ What is Webpack
 
 * Specialized Task runner that 
     * Process input files into an output file
-	    ![alt](..\_imgs\webpack.png)		
+	    ![alt](../_imgs/webpack.png) 
 	* Utilizes loader(s)
 	* Webpack conventions
 	    * Use NPM not bower
@@ -87,9 +86,14 @@ Dev Server
 ```> npm install webpack-dev-server -g```
 
 
+* build
+
+REWATCH "Watch Mode and the webpack dev server"
+
+![alt](../_imgs/webpack-dev-server-container.png) 
 
 
-
+![alt](../_imgs/webpack-dev-server-inline.png) 
 
 Loaders
 ----
@@ -98,4 +102,17 @@ Loaders
 
 
 Production Builds
-----
+-----------------
+
+
+Once all these are done
+=======================
+
+1. setup webpack dev server with
+- webdriver tests
+- promise routines with debug setup
+- for React Component creation
+- for website development using react component (so, it reacts to the value of props)
+
+2. Then open the site using webdriver (so use webdriver instead of browser)
+
